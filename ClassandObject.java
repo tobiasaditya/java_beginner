@@ -4,19 +4,19 @@ public class ClassandObject{
         class Number{
             int nomor;
             
-            public boolean isPositive(){
+            public boolean isNegative(){
                 if (nomor<0){
-                    return false;
+                    return true;
                 } 
                 else{
-                    return true;
+                    return false;
                 }
             }
             
         }
         
         Number tes = new Number();
-        tes.nomor = 3;
+        tes.nomor = 2;
         
         System.out.println(tes.isPositive());
         
