@@ -16,7 +16,7 @@ public class ClassandObject{
         }
         
         Number tes = new Number();
-        tes.nomor = -2;
+        tes.nomor = 3;
         
         System.out.println(tes.isPositive());
         
